@@ -3,12 +3,12 @@ version: "3"
 services:
  devopsdb:
    container_name: devopsdb
-   image: ifahad4u/rishu:dbimage
+   image: ifahad4u/rishitha:dbimage
    ports:
      - "3306:3306"
 
  application:
-   image: ifahad4u/rishu:appimage
+   image: ifahad4u/rishitha:appimage
    container_name: containerapp
    ports:
      - "1234:8080"
